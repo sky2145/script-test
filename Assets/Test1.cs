@@ -18,7 +18,7 @@ public class Test1 : MonoBehaviour
         array[4] = 50;
 
         // 配列の要素をすべて表示する
-        for (int i = 4; i < 5; i--)
+        for (int i = 4; i >= 0; i--)
         {
             Debug.Log(array[i]);
         }
